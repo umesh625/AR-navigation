@@ -1,0 +1,57 @@
+body
+{
+padding: 0;
+box-sizing: border-box;
+margin: 0;
+}
+
+.box
+{
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+     margin: 130px;
+    border: 3px solid black;
+    margin-left: 500px;
+    margin-right: 500px;
+    
+
+}
+
+.heading
+{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    border-bottom: 2px solid black;
+    
+}
+
+.search-tag
+{
+margin-top:150px;
+margin-bottom:150px;
+}
+
+.box button
+{
+background-color: black;
+color: white;
+border:1px solid black;
+width: 150px;
+height: 25px;
+border-radius: 5px;
+transition: ease-in-out;
+
+}
+
+.box label
+{
+    height: 100px;
+    width: 10px;
+}
+
+botton:hover
+{
+    background-color: red;
+}
